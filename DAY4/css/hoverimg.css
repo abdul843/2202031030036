@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.img{
+background-image: url('../IMG/IMG1.jpg');
+background-size: cover;
+height: 500px;
+width: 500px;
+margin-top: 50px;
+border-radius: 50px;
+transition: 0.3s;
+cursor: pointer;
+}
+.img:hover{
+    background-image: url('../IMG/IMG2.jpg');
+    background-size: cover;
+    transition: 0.3s;
+}
