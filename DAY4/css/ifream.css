@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fream{
+    margin-top: 15%;
+    height: 604px;
+    width:100%;
+}
+
+video{  
+    height: 600px;
+    width:100%;
+}
+.postion-box{
+    position:absolute;
+    left: 25%;
+    border: 2px solid red;
+    background-color: aqua;
+    height: 100px;
+    width: 100px
+}
+
