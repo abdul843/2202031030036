@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+          border:1px solid black;
+          text-align: center;
+          font-size: 25px;
+        }
+        .tital{
+          width: 100px;
+        }
+        table{
+            position: relative;
+            left: 100px;
+            box-shadow: 10px 5px 5px;
+        }
+        </style>
+</head>
+<body>
+    <h1> Calculator </h1>
+    <table>
+        <th class="tital">Value</th>
+        <th class="tital">value</th>
+        <th class="tital">opration</th>
+        <th class="tital">total</th>
+      </tr>
+      
+      <tr>
+        <td>6</td>
+        <td>4</td>
+        <td> + </td>
+        <td id="demo-1" ></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>4</td>
+        <td> - </td>
+        <td id="demo-2" ></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>4</td>
+        <td> * </td>
+        <td id="demo-3" ></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>4</td>
+        <td> / </td>
+        <td id="demo-4" ></td>
+      </tr>
+    </table>
+    <!-- <h3> The Value's are : 6,4</h3>
+    <p id="demo-1" ></p>
+    <p id="demo-2" ></p>
+    <p id="demo-3" ></p>
+    <p id="demo-4" ></p> -->
+ 
+<script>
+    let x = 6;
+    let y = 4;
+    total = x + y ;
+    total_2 = x-y;
+    total_3 = x*y;
+    total_4 = x/y;
+    document.getElementById("demo-1").innerHTML= "" + total;
+    document.getElementById("demo-2").innerHTML= "" + total_2;
+    document.getElementById("demo-3").innerHTML= "" + total_3;
+    document.getElementById("demo-4").innerHTML= "" + total_4;
+</script>
+
+</body>
+
+</html>

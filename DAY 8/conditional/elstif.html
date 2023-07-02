@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p> Guess My Age: 18,20,22, 35 or 41?</p>
+
+<input id="myInput" type="text">
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var letter = document.getElementById("myInput").value;
+
+  if (letter === "18") {
+    document.getElementById("demo").innerHTML="Good";
+    
+
+  } else if (letter === "20" || letter === "22") {
+    document.getElementById("demo").innerHTML="You are close";
+    
+  } else {
+    document.getElementById("demo").innerHTML="No";
+  }
+
+}
+</script>
+
+</body>
+</html>
