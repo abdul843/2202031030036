@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM in JS </title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+<h1 id="id01">Old Heading</h1>
+<script>
+document.getElementById("demo").innerHTML = "Hello World!";
+const element = document.getElementById("demo2");
+document.getElementById("demo2").innerHTML = 
+"The text from the intro paragraph is: " + element.innerHTML;
+const element2 = document.getElementById("id01");
+element2.innerHTML = "New Heading";
+</script>
+</body>
+</html>
